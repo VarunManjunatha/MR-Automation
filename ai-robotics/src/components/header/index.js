@@ -63,7 +63,7 @@
 // export default Header;
 
 
-import { Box, Image, Button, Menu, MenuButton, MenuList, MenuItem, Link, IconButton, LinkOverlay, Text, Heading } from "@chakra-ui/react";
+import { Box, Image, Flex, Button, Menu, MenuButton, MenuList, MenuItem, Link, IconButton, LinkOverlay, Text, Heading } from "@chakra-ui/react";
 import React from "react";
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { UseMenuState  } from "./usedisclosure";
@@ -82,7 +82,11 @@ const Header = ({ footerRef }) => {
   return (
     <Box className="header" h={"100px"}>
       <Image src="/logo.jpg" alt="pramod" w={"90px"} h={"90px"} borderRadius={"50%"}/>
-      <Heading>MR Automation Solution</Heading>
+      {/* <Heading>MR Automation Solution</Heading> */}
+      <Flex>
+      <Heading className="text"> <span className="letter letter-1">M</span>
+      <span className="letter letter-2">R</span></Heading>
+      <Heading m={"40px"} fontFamily={"pirulen"} fontSize={"45px"}> Automation Solution </Heading></Flex>
       <Box display={{ base: "flex", md: "none" }} justifyContent={"flex-end"}>
         <Menu isOpen={isOpen}>
           <MenuButton
