@@ -8,7 +8,7 @@ const Footer = forwardRef((props, ref) => {
     <Box bg={"#f8f8f8"} h={"100%"} position={"sticky"} ref={ref}>
       <footer className={"footer"}>
         <Box w={"33%"}>
-          <Image src="/logo.jpg" alt="Logo" w={"120px"} h={"120px"} borderRadius={"50%"} 
+          <Image src="/logo.jpg" alt="Logo" w={"80px"} h={"80px"} borderRadius={"50%"} 
           //className={"footer-logo"} 
           />
           </Box>

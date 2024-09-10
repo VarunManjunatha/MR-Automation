@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   padding: 50px;
+  //height: fit-content;
 
   .footer-logo {
     margin-bottom: 20px;
@@ -43,6 +44,8 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
+    font-size: 16px;
+    height: 100px;
 
     .footer-logo,
     .footer-links,
