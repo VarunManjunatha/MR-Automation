@@ -80,9 +80,9 @@ const Header = ({ footerRef }) => {
   ];
 
   return (
-    <Box className="header" h={"100px"}>
-      <Image src="/logo.jpg" alt="pramod" w={"90px"} h={"90px"} borderRadius={"50%"}/>
-      <Heading className="header-ai-heading">MR Automation Solution</Heading>
+    <Box className="header" h={"110px"}>
+      <Image src="/header-logo.png" alt="pramod" w={"120px"} h={"120px"} borderRadius={"50%"}/>
+      <Heading className="header-ai-heading">MR Automation Solutions</Heading>
       {/* <Flex>
       <Heading className="text"> <span className="letter letter-1">M</span>
       <span className="letter letter-2">R</span></Heading>

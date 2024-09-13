@@ -46,13 +46,26 @@
 // $prime: #FF6E48;
 // $second: #1b2431;
 
+// @font-face {
+//   font-family: "Pirulen";
+//   src: url('https://fonts.cdnfonts.com/s/20928/Pirulen.woff') format('woff'); 
+// }
+
 @font-face {
-  font-family: "Pirulen";
-  src: url('https://fonts.cdnfonts.com/s/20928/Pirulen.woff') format('woff'); 
-}
+  font-family: 'Pirulen';
+  src: url('/fonts/pirulen.woff2') format('woff2'),
+       url('/fonts/pirulen.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+// .header-ai-heading {
+//   font-family: 'Pirulen', sans-serif;
+// }
+
 
 .header-ai-heading {
-  font-family: "Pirulen"; 
+  font-family: 'Pirulen', sans-serif;
   font-size: 24px; 
   display: flex;
   flex-flow: column;
